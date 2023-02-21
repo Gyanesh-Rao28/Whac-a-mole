@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whac-a-mole</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/HTML&CSS/Javascript/03_P_JS/mole.png">
+    <!-- https://cdn.discordapp.com/attachments/1026434103001743430/1071731777137299577/sunny.png -->
+</head>
+<body>
+    
+    <h2>Your Score: <span id="score">0</span></h2>
+    <h2>Time Left: <span id="time-left">60</span> sec</h2>
+
+
+    <div class="grid">
+        <div class="square" id="1"></div>
+        <div class="square" id="2"></div>
+        <div class="square" id="3"></div>
+        <div class="square" id="4"></div>
+        <div class="square" id="5"></div>
+        <div class="square" id="6"></div>
+        <div class="square" id="7"></div>
+        <div class="square" id="8"></div>
+        <div class="square" id="9"></div>
+    </div>
+
+    <h2>Message: <span id="msg"></span></h2>
+
+    <div class="lower">
+        <button id="start-btn" class="btn-cnt">Start</button>
+        <button id="stop-btn" class="btn-cnt">Pause</button>
+        <button id="reset-btn" class="btn-cnt"><a href="http://172.25.80.1:5501/HTML&CSS/Javascript/03_P_JS/index.html">Reset</a></button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
